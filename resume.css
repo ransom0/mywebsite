@@ -40,20 +40,28 @@ body {
 	font-size: 1em;
 	margin: 10px auto;
 	background-color: white;
-	width: 100%;
+	width: 95%;
 	height: 100%;
 	padding: 10px;
-	text-align: center;
+	}
+
+#main a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#main a:hover {
+	color: #4f9be8;
 	}
 
 #footer {
 	background-color: #4f9be8;
-	height: 2em;
-	position: fixed;
-	top: 97%;
-	width: 100%;
+	position: relative;
+	width: 95%;
 	font-family: Aharoni, Arial Black;
 	font-size: 1em;
+	margin: 0 auto;
+	padding: 10px;
 	}
 
 #footer a {
@@ -67,15 +75,14 @@ body {
 
 #footer ul {
 	margin: 0 auto;
-	padding: 0;
 	list-style-type: none;
 	list-style-image: none;
-	position: relative;
 	text-align: center;
-	padding: 7px;
 	word-spacing: 1em;
 	}
 
 #footer li {
 	display: inline;
 	}
+
+
